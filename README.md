@@ -7,7 +7,7 @@ Just clone the repo, change the URL link in the `standup.go` file, build standup
 
 
 ```
-$ go build -o standup standup.go
+go build -o standup standup.go
 ```
 
 and copy to `/usr/local/bin` so you can execute it anywhere
