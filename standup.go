@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-    url := "https://saltpay-co.zoom.us/my/" 
+    url := "www.google.com" 
     err := exec.Command("open", url).Run()
     if err != nil {
         fmt.Println("Error opening URL:", err)
